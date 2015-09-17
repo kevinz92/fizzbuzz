@@ -142,32 +142,35 @@ function GCD(a, b){
 
  function fizzbuzz(N){
 //     // YOUR CODE HERE
-          var zzz=""
-          
+    var zzz=""
+    
 
-          
-          for (var i=1; i =< N; i++) {
-            
-          
-            if (i%3===0) {
-            zzz+= "fizz";
-            };
-            
-            else if(i%5===0) {
-            zzz+= "buzz";
-            };
-            
-            else if(i%3===0 && i%5===0) {
-            zzz+= "fizzbuzz";
-            };
-          
-          else{
-            zzz+= ".";
-          };
+    
+    for (var i=1; i <= N; i++) {
+      
+    
+      if (i%3===0) {
+      zzz+= "fizz";
+      }
+      
+      else if(i%5===0) {
+      zzz+= "buzz";
+      }
+      
+      else if(i%3===0 && i%5===0) {
+      zzz+= "fizzbuzz";
+      }
+    
+    else{
+      zzz+= ".";
+        }
 
 
 
- };
+  }
+
+}
+
  
 
 //  console.assert(fizzbuzz(1) === ".")
